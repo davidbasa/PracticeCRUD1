@@ -1,0 +1,10 @@
+2022-08-10 14:58:09.771 DEBUG 22688 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/buku/", parameters={}
+2022-08-10 14:58:09.782 DEBUG 22688 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#getBukus()
+2022-08-10 14:58:09.786 DEBUG 22688 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-08-10 14:58:09.786 DEBUG 22688 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.example.practicecrud1.model.Buku@7a21caa, com.example.practicecrud1.model.Buku@5249b116, com.ex (truncated)...]
+2022-08-10 14:58:09.786 DEBUG 22688 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2022-08-10 14:58:10.491 DEBUG 22688 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/buku/", parameters={}
+2022-08-10 14:58:10.492 DEBUG 22688 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#getBukus()
+2022-08-10 14:58:10.496 DEBUG 22688 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-08-10 14:58:10.496 DEBUG 22688 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.example.practicecrud1.model.Buku@25444613, com.example.practicecrud1.model.Buku@42180bd2, com.e (truncated)...]
+2022-08-10 14:58:10.497 DEBUG 22688 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
