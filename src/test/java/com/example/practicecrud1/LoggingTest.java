@@ -27,36 +27,33 @@ public class LoggingTest {
 
     @Test
     public void saveBukuTest(){
-        for(int i = 0; i<10;i++){
         Buku buku = Buku.builder()
-                .idbuku(10)
+                .idbuku(9)
                 .namabuku("cie nyari lagi")
                 .build();
         bukuRepo.save(buku);
         Assertions.assertEquals(buku.getNamabuku(), "cie nyari lagi");
-        }
+        log.warn("berhasil simpan");
     }
 
     @Test
     public void getBukuTest(){
-        for(int i = 0; i<10;i++) {
             bukuRepo.findAll();
             ResponseEntity<List<Buku>> response = bukuController.getBukus();
             Assertions.assertEquals(HttpStatus.FOUND, response.getStatusCode());
-        }
+        log.info("berhasil menampilkan buku");
     }
 
     @Test
     public void getBukubuIDTest(){
-        for(int i = 0; i<10;i++) {
             Buku buku = bukuRepo.findById(2).get();
             Assertions.assertEquals(buku.getNamabuku(), "hayo belum ketemu");
-        }
+        log.info("berhasil menampilkan buku");
+
     }
 
     @Test
     public void deleteBukuTest(){
-        for(int i = 0; i<10;i++) {
             Buku buku = bukuRepo.findById(10).get();
             bukuRepo.delete(buku);
 
@@ -69,12 +66,12 @@ public class LoggingTest {
             }
 
             Assertions.assertNull(buku1);
-        }
+        log.info("berhasil menghapus buku");
+
     }
 
     @Test
     public void updateBukuTest(){
-        for(int i = 0; i<10;i++) {
             Buku buku = bukuRepo.findById(5).get();
 
             buku.setNamabuku("blabalabla sudah dirubah");
@@ -82,7 +79,8 @@ public class LoggingTest {
             Buku bukuUpdated = bukuRepo.save(buku);
 
             Assertions.assertEquals(bukuUpdated.getNamabuku(), "blabalabla sudah dirubah");
-        }
+        log.info("berhasil merubah buku");
+
 
     }
 

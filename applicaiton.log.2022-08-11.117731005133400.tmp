@@ -1,0 +1,52 @@
+2022-08-11 13:55:22.903  INFO 17504 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-08-11 13:55:23.492  INFO 17504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 13:55:23.499  INFO 17504 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 13:55:23.500  INFO 17504 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 13:55:23.623  INFO 17504 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 13:55:23.623  INFO 17504 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1403 ms
+2022-08-11 13:55:23.762  INFO 17504 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-11 13:55:23.901  INFO 17504 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-11 13:55:23.936  INFO 17504 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-11 13:55:23.990  INFO 17504 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-11 13:55:24.149  INFO 17504 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-11 13:55:24.260  INFO 17504 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-08-11 13:55:24.709  INFO 17504 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-11 13:55:24.717  INFO 17504 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 13:55:24.918  WARN 17504 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-11 13:55:25.033  INFO 17504 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@8950317, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@770b50d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@7af85c86, org.springframework.security.web.header.HeaderWriterFilter@4c28f01, org.springframework.security.web.csrf.CsrfFilter@3cfcb97e, org.springframework.security.web.authentication.logout.LogoutFilter@4586ba6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@14fb769c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@30ba74be, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@d66098f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e44af48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5790d6e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@90fc171, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b841ad1, org.springframework.security.web.session.SessionManagementFilter@46768c0e, org.springframework.security.web.access.ExceptionTranslationFilter@2aa23db, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fd1ff96]
+2022-08-11 13:55:25.133 DEBUG 17504 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-11 13:55:25.190 DEBUG 17504 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2022-08-11 13:55:25.205 DEBUG 17504 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-08-11 13:55:25.211 DEBUG 17504 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-11 13:55:25.291  INFO 17504 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-11 13:55:25.318  INFO 17504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 13:55:25.326  INFO 17504 --- [restartedMain] c.e.p.PracticeCrud1Application           : Started PracticeCrud1Application in 3.548 seconds (JVM running for 4.47)
+2022-08-11 13:55:39.064  INFO 17504 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 13:55:39.066  INFO 17504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 13:55:39.066 DEBUG 17504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-08-11 13:55:39.066 DEBUG 17504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-08-11 13:55:39.066 DEBUG 17504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-08-11 13:55:39.067 DEBUG 17504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@54ce82fa
+2022-08-11 13:55:39.067 DEBUG 17504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@336571e6
+2022-08-11 13:55:39.067 DEBUG 17504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-08-11 13:55:39.067  INFO 17504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-11 13:56:41.442 DEBUG 17504 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 13:56:41.450 DEBUG 17504 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#home()
+2022-08-11 13:56:41.511 DEBUG 17504 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-11 13:56:41.512 DEBUG 17504 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<h1>welcome</h1>"]
+2022-08-11 13:56:41.518 DEBUG 17504 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-11 13:56:49.858 DEBUG 17504 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-08-11 13:56:49.872 DEBUG 17504 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-08-11 13:56:49.884 DEBUG 17504 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-08-11 13:56:49.884 DEBUG 17504 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-08-11 13:56:49.892 DEBUG 17504 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-08-11 13:56:49.896 DEBUG 17504 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-08-11 13:56:49.925 DEBUG 17504 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-08-11 13:56:49.925 DEBUG 17504 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Aug 11 13:56:49 ICT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-08-11 13:56:50.065 DEBUG 17504 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-08-11 13:57:20.145 DEBUG 17504 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 13:57:20.145 DEBUG 17504 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#home()
+2022-08-11 13:57:20.146 DEBUG 17504 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-11 13:57:20.146 DEBUG 17504 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<h1>welcome</h1>"]
+2022-08-11 13:57:20.147 DEBUG 17504 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-11 13:57:29.163  INFO 17504 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

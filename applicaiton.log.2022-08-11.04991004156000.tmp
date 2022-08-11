@@ -1,0 +1,53 @@
+2022-08-11 10:24:26.507  INFO 14272 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-11 10:24:26.523  INFO 14272 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 10:24:26.772  WARN 14272 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-11 10:24:26.886 DEBUG 14272 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-11 10:24:26.963 DEBUG 14272 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2022-08-11 10:24:26.980 DEBUG 14272 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-08-11 10:24:26.987 DEBUG 14272 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-11 10:24:27.068  WARN 14272 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 181e35cc-0be6-4ec1-9af4-9173fb5c2a99
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-08-11 10:24:27.158  INFO 14272 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f63911a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12db802, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e1a49b9, org.springframework.security.web.header.HeaderWriterFilter@70adc99e, org.springframework.security.web.csrf.CsrfFilter@23d6b5af, org.springframework.security.web.authentication.logout.LogoutFilter@2d69c987, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@321de539, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@67351b68, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1ae258de, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@43c10f2a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55578216, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f9ce65c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@551c3442, org.springframework.security.web.session.SessionManagementFilter@1e8beaa5, org.springframework.security.web.access.ExceptionTranslationFilter@a2cd2b2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59d6f0e0]
+2022-08-11 10:24:27.196  INFO 14272 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-11 10:24:27.233  INFO 14272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 10:24:27.244  INFO 14272 --- [restartedMain] c.e.p.PracticeCrud1Application           : Started PracticeCrud1Application in 14.486 seconds (JVM running for 15.789)
+2022-08-11 10:24:36.585  INFO 14272 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 10:24:46.352  INFO 14088 --- [restartedMain] c.e.p.PracticeCrud1Application           : Starting PracticeCrud1Application using Java 11.0.14 on PLZNB6694610430 with PID 14088 (D:\David\Project\PracticeCRUD1\PracticeCRUD1\target\classes started by c020822005 in D:\David\Project\PracticeCRUD1\PracticeCRUD1)
+2022-08-11 10:24:46.354  INFO 14088 --- [restartedMain] c.e.p.PracticeCrud1Application           : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 10:24:46.391  INFO 14088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-11 10:24:46.392  INFO 14088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-11 10:24:46.925  INFO 14088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-11 10:24:46.971  INFO 14088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2022-08-11 10:24:47.484  INFO 14088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 10:24:47.490  INFO 14088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 10:24:47.491  INFO 14088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 10:24:47.599  INFO 14088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 10:24:47.600  INFO 14088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1208 ms
+2022-08-11 10:24:47.762  INFO 14088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-11 10:24:47.937  INFO 14088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-11 10:24:47.977  INFO 14088 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-11 10:24:48.017  INFO 14088 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-11 10:24:48.159  INFO 14088 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-11 10:24:48.249  INFO 14088 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-08-11 10:24:48.659  INFO 14088 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-11 10:24:48.667  INFO 14088 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 10:24:48.862  WARN 14088 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-11 10:24:48.948 DEBUG 14088 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-11 10:24:48.997 DEBUG 14088 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2022-08-11 10:24:49.013 DEBUG 14088 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-08-11 10:24:49.019 DEBUG 14088 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-11 10:24:49.089  WARN 14088 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 76109f49-8bbc-4f1a-af3f-fbe0bd59304a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-08-11 10:24:49.186  INFO 14088 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@360ee9ae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@684915ef, org.springframework.security.web.context.SecurityContextPersistenceFilter@571e5aee, org.springframework.security.web.header.HeaderWriterFilter@23c079dc, org.springframework.security.web.csrf.CsrfFilter@10efa076, org.springframework.security.web.authentication.logout.LogoutFilter@5364f786, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1679bf6f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2a52d23a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@126c01f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47c14652, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@221c724e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@197c2805, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54b173af, org.springframework.security.web.session.SessionManagementFilter@600f52e7, org.springframework.security.web.access.ExceptionTranslationFilter@6c89dde, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75c47282]
+2022-08-11 10:24:49.217  INFO 14088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-11 10:24:49.243  INFO 14088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 10:24:49.251  INFO 14088 --- [restartedMain] c.e.p.PracticeCrud1Application           : Started PracticeCrud1Application in 3.273 seconds (JVM running for 4.356)
+2022-08-11 10:25:09.163  INFO 14088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'

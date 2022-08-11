@@ -12,13 +12,18 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+//@RequestMapping("/api")
 @Controller
 public class BukuController {
 //controller untuk nerima fe
     @Autowired
     BukuService bukuService;
 
+
+    @RequestMapping("/")
+    public String home(){
+        return("<h1>welcome</h1>");
+    }
 
     //getAll
     @GetMapping("/buku")

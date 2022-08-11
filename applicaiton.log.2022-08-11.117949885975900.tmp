@@ -1,0 +1,53 @@
+2022-08-11 14:00:17.848  INFO 25308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 14:00:17.865  INFO 25308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 14:00:17.865  INFO 25308 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 14:00:17.985  INFO 25308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 14:00:17.985  INFO 25308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1248 ms
+2022-08-11 14:00:18.218  INFO 25308 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-11 14:00:18.355  INFO 25308 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-11 14:00:18.398  INFO 25308 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-11 14:00:18.440  INFO 25308 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-11 14:00:18.582  INFO 25308 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-11 14:00:18.675  INFO 25308 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-08-11 14:00:19.123  INFO 25308 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-11 14:00:19.135  INFO 25308 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 14:00:19.385  WARN 25308 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-11 14:00:19.503  INFO 25308 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40481ae5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@794e4654, org.springframework.security.web.context.SecurityContextPersistenceFilter@35361792, org.springframework.security.web.header.HeaderWriterFilter@36c7429d, org.springframework.security.web.csrf.CsrfFilter@44d5219, org.springframework.security.web.authentication.logout.LogoutFilter@61d51c95, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e9c9507, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7a1d149c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46ebec98, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@71fe484e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71377cfb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22e4327a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2584661, org.springframework.security.web.session.SessionManagementFilter@355fbcb9, org.springframework.security.web.access.ExceptionTranslationFilter@41126b09, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@319f03aa]
+2022-08-11 14:00:19.619 DEBUG 25308 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-11 14:00:19.676 DEBUG 25308 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2022-08-11 14:00:19.690 DEBUG 25308 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-08-11 14:00:19.699 DEBUG 25308 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-11 14:00:19.787  INFO 25308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-11 14:00:19.815  INFO 25308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 14:00:19.823  INFO 25308 --- [restartedMain] c.e.p.PracticeCrud1Application           : Started PracticeCrud1Application in 3.506 seconds (JVM running for 4.672)
+2022-08-11 14:00:21.016  INFO 25308 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 14:00:21.018  INFO 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 14:00:21.018 DEBUG 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-08-11 14:00:21.018 DEBUG 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-08-11 14:00:21.018 DEBUG 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-08-11 14:00:21.018 DEBUG 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24536964
+2022-08-11 14:00:21.018 DEBUG 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5d69b550
+2022-08-11 14:00:21.018 DEBUG 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-08-11 14:00:21.019  INFO 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-11 14:00:21.039 DEBUG 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 14:00:21.045 DEBUG 25308 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#home()
+2022-08-11 14:00:21.064 DEBUG 25308 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-11 14:00:21.064 DEBUG 25308 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<h1>welcome</h1>"]
+2022-08-11 14:00:21.070 DEBUG 25308 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-11 14:00:22.266 DEBUG 25308 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 14:00:22.267 DEBUG 25308 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#home()
+2022-08-11 14:00:22.268 DEBUG 25308 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-11 14:00:22.268 DEBUG 25308 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<h1>welcome</h1>"]
+2022-08-11 14:00:22.268 DEBUG 25308 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-11 14:00:25.922 DEBUG 25308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 14:00:25.923 DEBUG 25308 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#home()
+2022-08-11 14:00:25.924 DEBUG 25308 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-11 14:00:25.924 DEBUG 25308 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<h1>welcome</h1>"]
+2022-08-11 14:00:25.925 DEBUG 25308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-11 14:01:05.788 DEBUG 25308 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 14:01:05.788 DEBUG 25308 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#home()
+2022-08-11 14:01:05.790 DEBUG 25308 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-11 14:01:05.790 DEBUG 25308 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<h1>welcome</h1>"]
+2022-08-11 14:01:05.790 DEBUG 25308 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-11 14:01:08.046 DEBUG 25308 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 14:01:08.046 DEBUG 25308 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#home()

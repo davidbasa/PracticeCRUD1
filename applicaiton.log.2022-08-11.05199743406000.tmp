@@ -1,0 +1,59 @@
+2022-08-11 10:28:07.073 DEBUG 980 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 10:28:07.085 DEBUG 980 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-08-11 10:28:07.085 DEBUG 980 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-08-11 10:28:07.085 DEBUG 980 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-08-11 10:28:07.086 DEBUG 980 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-08-11 10:28:07.121 DEBUG 980 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-08-11 10:28:07.143 DEBUG 980 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-08-11 10:28:07.144 DEBUG 980 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-08-11 10:28:26.020 DEBUG 980 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 10:28:26.021 DEBUG 980 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-08-11 10:28:26.022 DEBUG 980 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-08-11 10:28:26.023 DEBUG 980 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-08-11 10:28:26.023 DEBUG 980 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-08-11 10:28:26.023 DEBUG 980 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-08-11 10:28:26.032 DEBUG 980 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-08-11 10:28:26.032 DEBUG 980 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-08-11 10:28:26.994 DEBUG 980 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 10:28:26.995 DEBUG 980 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-08-11 10:28:26.996 DEBUG 980 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-08-11 10:28:26.996 DEBUG 980 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-08-11 10:28:26.996 DEBUG 980 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-08-11 10:28:26.997 DEBUG 980 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-08-11 10:28:27.005 DEBUG 980 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-08-11 10:28:27.006 DEBUG 980 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-08-11 10:28:28.315  INFO 980 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 10:28:28.318  INFO 980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-11 10:28:28.325  INFO 980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-11 10:28:35.292  INFO 23164 --- [restartedMain] c.e.p.PracticeCrud1Application           : Starting PracticeCrud1Application using Java 11.0.14 on PLZNB6694610430 with PID 23164 (D:\David\Project\PracticeCRUD1\PracticeCRUD1\target\classes started by c020822005 in D:\David\Project\PracticeCRUD1\PracticeCRUD1)
+2022-08-11 10:28:35.293  INFO 23164 --- [restartedMain] c.e.p.PracticeCrud1Application           : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 10:28:35.332  INFO 23164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-11 10:28:35.332  INFO 23164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-11 10:28:35.861  INFO 23164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-11 10:28:35.905  INFO 23164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-08-11 10:28:36.323  INFO 23164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 10:28:36.331  INFO 23164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 10:28:36.331  INFO 23164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 10:28:36.435  INFO 23164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 10:28:36.436  INFO 23164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1103 ms
+2022-08-11 10:28:36.574  INFO 23164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-11 10:28:36.675  INFO 23164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-11 10:28:36.705  INFO 23164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-11 10:28:36.738  INFO 23164 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-11 10:28:36.867  INFO 23164 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-11 10:28:36.961  INFO 23164 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-08-11 10:28:37.313  INFO 23164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-11 10:28:37.320  INFO 23164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 10:28:37.528  WARN 23164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-11 10:28:37.620 DEBUG 23164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-11 10:28:37.670 DEBUG 23164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2022-08-11 10:28:37.687 DEBUG 23164 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-08-11 10:28:37.692 DEBUG 23164 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-11 10:28:37.768  WARN 23164 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 13b876c7-8848-4aeb-98d4-6a8e0c41ec63
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-08-11 10:28:37.846  INFO 23164 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c2e0352, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38d9c107, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c6e1359, org.springframework.security.web.header.HeaderWriterFilter@2f850cf5, org.springframework.security.web.csrf.CsrfFilter@60b7b45f, org.springframework.security.web.authentication.logout.LogoutFilter@53cf3ec3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31e9c106, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5443b1d5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@9018686, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d6767cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2534ce05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@962ace3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24bcde9b, org.springframework.security.web.session.SessionManagementFilter@35d1bee4, org.springframework.security.web.access.ExceptionTranslationFilter@3ebdfdba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ab19ade]
+2022-08-11 10:28:37.875  INFO 23164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729

@@ -1,0 +1,56 @@
+2022-08-11 10:43:03.714 DEBUG 24380 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-11 10:43:03.720 DEBUG 24380 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<h1>welcome</h1>"]
+2022-08-11 10:43:03.722 DEBUG 24380 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-11 11:25:28.558  INFO 24380 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 11:25:28.562  INFO 24380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-11 11:25:28.568  INFO 24380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-11 11:25:37.694  INFO 18620 --- [restartedMain] c.e.p.PracticeCrud1Application           : Starting PracticeCrud1Application using Java 11.0.14 on PLZNB6694610430 with PID 18620 (D:\David\Project\PracticeCRUD1\PracticeCRUD1\target\classes started by c020822005 in D:\David\Project\PracticeCRUD1\PracticeCRUD1)
+2022-08-11 11:25:37.695  INFO 18620 --- [restartedMain] c.e.p.PracticeCrud1Application           : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 11:25:37.735  INFO 18620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-11 11:25:37.735  INFO 18620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-11 11:25:38.557  INFO 18620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-11 11:25:38.631  INFO 18620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-08-11 11:25:39.343  INFO 18620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-11 11:25:39.353  INFO 18620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-11 11:25:39.354  INFO 18620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-11 11:25:39.505  INFO 18620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-11 11:25:39.506  INFO 18620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1771 ms
+2022-08-11 11:25:39.684  INFO 18620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-11 11:25:39.835  INFO 18620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-11 11:25:39.881  INFO 18620 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-11 11:25:39.937  INFO 18620 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-11 11:25:40.106  INFO 18620 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-11 11:25:40.255  INFO 18620 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-08-11 11:25:40.916  INFO 18620 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-11 11:25:40.930  INFO 18620 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 11:25:41.267  WARN 18620 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-11 11:25:41.436  INFO 18620 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47f96a57, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3561f2ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@26c26b8b, org.springframework.security.web.header.HeaderWriterFilter@25924f6b, org.springframework.security.web.csrf.CsrfFilter@109515ca, org.springframework.security.web.authentication.logout.LogoutFilter@4a6a8199, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bf5379c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@57d354ce, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@20a988c6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@29f169b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7223f3e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cd49d6a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@244c78fa, org.springframework.security.web.session.SessionManagementFilter@762aa9fd, org.springframework.security.web.access.ExceptionTranslationFilter@113a094d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bf42c9b]
+2022-08-11 11:25:41.630 DEBUG 18620 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-11 11:25:41.707 DEBUG 18620 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2022-08-11 11:25:41.725 DEBUG 18620 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-08-11 11:25:41.734 DEBUG 18620 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-11 11:25:41.846  INFO 18620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-11 11:25:41.882  INFO 18620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-11 11:25:41.894  INFO 18620 --- [restartedMain] c.e.p.PracticeCrud1Application           : Started PracticeCrud1Application in 4.535 seconds (JVM running for 5.383)
+2022-08-11 11:26:10.995  INFO 18620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 11:26:10.996  INFO 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 11:26:10.996 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-08-11 11:26:10.996 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-08-11 11:26:10.996 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-08-11 11:26:10.998 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1416754a
+2022-08-11 11:26:10.998 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5d9dc2ea
+2022-08-11 11:26:10.998 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-08-11 11:26:10.998  INFO 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-08-11 11:26:21.621 DEBUG 18620 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-08-11 11:26:21.625 DEBUG 18620 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.practicecrud1.controller.BukuController#home()
+2022-08-11 11:26:21.646 DEBUG 18620 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-11 11:26:21.647 DEBUG 18620 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<h1>welcome</h1>"]
+2022-08-11 11:26:21.651 DEBUG 18620 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-11 12:31:08.805  INFO 18620 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 12:31:08.808  INFO 18620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-11 12:31:08.812  INFO 18620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-11 13:55:22.171  INFO 17504 --- [restartedMain] c.e.p.PracticeCrud1Application           : Starting PracticeCrud1Application using Java 11.0.14 on PLZNB6694610430 with PID 17504 (D:\David\Project\PracticeCRUD1\PracticeCRUD1\target\classes started by c020822005 in D:\David\Project\PracticeCRUD1\PracticeCRUD1)
+2022-08-11 13:55:22.172  INFO 17504 --- [restartedMain] c.e.p.PracticeCrud1Application           : No active profile set, falling back to 1 default profile: "default"
+2022-08-11 13:55:22.219  INFO 17504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-11 13:55:22.220  INFO 17504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-11 13:55:22.849  INFO 17504 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
